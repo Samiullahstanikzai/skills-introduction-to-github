@@ -3,6 +3,8 @@
 ## Overview
 This implementation replaces a traditional static image banner with a modern 5-second video banner for Shopify stores. The solution is fast, clean, and easy to implement.
 
+> **✨ Demo Ready:** Both HTML files now include a working demo video from a public CDN, so you can see the video banner in action immediately! Simply open the HTML files in your browser to preview the functionality. For production use, replace the demo video URL with your own custom video.
+
 ## Files Included
 
 ### 1. `shopify-video-banner.html`
@@ -33,6 +35,8 @@ A complete Shopify theme template featuring:
 
 ## Implementation Guide
 
+**Note:** The HTML files include a working demo video from a public CDN. This allows you to see the video banner in action immediately. For production use, replace the demo video URL with your own video.
+
 ### Step 1: Prepare Your Video
 1. Create or obtain a 5-second video for your banner
 2. Compress the video to reduce file size (recommended: under 2MB)
@@ -46,8 +50,12 @@ A complete Shopify theme template featuring:
 4. Copy the video URL
 
 ### Step 3: Update the HTML
-Replace the video source in the code:
+Replace the demo video source in the code with your own video URL:
 ```html
+<!-- Current demo video -->
+<source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+
+<!-- Replace with your video -->
 <source src="YOUR_VIDEO_URL.mp4" type="video/mp4">
 <source src="YOUR_VIDEO_URL.webm" type="video/webm">
 ```

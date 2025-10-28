@@ -22,7 +22,7 @@
 
 ## After (5-Second Video Banner) ✅
 ```html
-<!-- New approach: 5-second looping video banner -->
+<!-- New approach: 5-second looping video banner with working demo -->
 <div class="hero-banner">
     <video 
         class="video-banner" 
@@ -31,9 +31,10 @@
         loop 
         playsinline
         poster="fallback-image.jpg"
+        aria-label="Hero banner video showcasing store products"
     >
-        <source src="banner-video.mp4" type="video/mp4">
-        <source src="banner-video.webm" type="video/webm">
+        <!-- Demo video included - replace with your own for production -->
+        <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
     </video>
     
     <div class="hero-overlay">
